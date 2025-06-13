@@ -18,7 +18,7 @@ sudo docker-compose -f macos.yml up
 ```js
 mkdir user && cd user
 wget -O linux.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/linux.yml
-sudo docker-compose -f qemu.yml up
+sudo docker-compose -f linux.yml up
 ```
 
 เมื่อทำงานจะเชื่อมต่อเซิร์ฟเวอร์ลิ้งค์ที่แสดงพอร์ตให้เราเข้าไป​ ถ้าสังเกตว่ามีอยู่สองพอร์ต แนะนำไปที่พอร์ต `8006` เพื่อดูระหว่างการติดตั้ง​ หากเข้าการใช้งานได้แต่ประสิทธิภาพไม่ลื่นบนมือถือ
