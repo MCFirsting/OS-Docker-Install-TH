@@ -7,7 +7,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11%20b1.iso"
+      VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11a64%20r1.iso"
       USERNAME: "User"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
