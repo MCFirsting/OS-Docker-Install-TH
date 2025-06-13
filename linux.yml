@@ -4,7 +4,6 @@ services:
     container_name: qemu
     environment:
       BOOT: "https://archive.org/download/ubuntu-24.04.2-desktop-amd64/ubuntu-24.04.2-desktop-amd64.iso"
-      USERNAME: "User"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
       DISK_SIZE: "20G"
