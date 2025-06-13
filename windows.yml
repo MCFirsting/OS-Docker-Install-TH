@@ -8,7 +8,6 @@ services:
     container_name: windows
     environment:
       VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso"
-      USERNAME: "User"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
       DISK_SIZE: "20G"
