@@ -31,7 +31,7 @@ sudo docker-compose -f linux.yml up
 environment:
       VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso"
 ```
-​หากต้องการทดสอบเพิ่มพื้นที่จัดเก็บข้อมูล​แนะนำ​สำหรับ​ Tiny11 ต้อง​ปรับ​ค่า​ตามนี้
+​หากต้องการทดสอบเพิ่มพื้นที่จัดเก็บข้อมูล​แนะนำ​สำหรับ​ Tiny11 โดยที่ Machine type จะต้องเป็น `4 Core RAM 16 - 32 GB` ต้อง​ปรับ​ค่า​ตามนี้
 ```
 RAM_SIZE: "8G"
 DISK_SIZE: "64G"
