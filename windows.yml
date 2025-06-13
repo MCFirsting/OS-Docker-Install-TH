@@ -7,7 +7,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10l"
+      VERSION: "https://archive.org/download/tiny-10_202301/tiny10%2023h1%20x64.iso"
       USERNAME: "User"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
