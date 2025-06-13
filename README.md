@@ -8,12 +8,6 @@ mkdir user && cd user
 wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/windows.yml
 sudo docker-compose -f windows.yml up
 ```
- - MacOS
-```js
-mkdir user && cd user
-wget -O macos.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/macos.yml
-sudo docker-compose -f macos.yml up
-```
 - Linux
 ```js
 mkdir user && cd user
@@ -25,7 +19,7 @@ sudo docker-compose -f linux.yml up
 แนะนำติดตั้งโปรแกรม​​ Remote​ Dasktop​​ ได้ทั้งมือถือและคอม
 
 > [!TIP]
-> หากต้องการติดตั้งไฟล์ ISO ที่กำหนดเองสามารถใส่ลิ้งค์โหลดโดยตรงได้ แต่จะใช้เวลาการดาวน์โหลดขึ้นอยู่กับไฟล์ ISO สามารถเลือกเวอร์ชั่นและรุ่นต่างๆของระบบปฏิบัติการได้จาก archive.org อย่างเช่น [Windows](https://archive.org/search?query=windows) [Linux](https://archive.org/search?query=Ubuntu) ตามต้องการระหว่างติดตั้งครั้งแรก ยกเว้นระบบ [MacOS](https://github.com/dockur/macos?tab=readme-ov-file#faq-) จะต้องเลือกตาม Repository ที่เขาสร้างขึ้นมา
+> หากต้องการติดตั้งไฟล์ ISO ที่กำหนดเองสามารถใส่ลิ้งค์โหลดโดยตรงได้ แต่จะใช้เวลาการดาวน์โหลดขึ้นอยู่กับไฟล์ ISO สามารถเลือกเวอร์ชั่นและรุ่นต่างๆของระบบปฏิบัติการได้จาก archive.org อย่างเช่น [Windows](https://archive.org/search?query=windows) [Linux](https://archive.org/search?query=Ubuntu) ตามต้องการระหว่างติดตั้งครั้งแรก
 นี่คือตัวอย่างการนำไฟล์จาก Tiny11
 ```
 environment:
@@ -44,10 +38,6 @@ DISK_SIZE: "64G"
 ```js
 cd user && sudo docker-compose -f windows.yml start
 ```
- - MacOS
-```js
-cd user && sudo docker-compose -f macos.yml start
-```
  - Linux
 ```js
 cd user && sudo docker-compose -f linux.yml start
@@ -58,10 +48,6 @@ cd user && sudo docker-compose -f linux.yml start
  - Windows
 ```js
 sudo docker-compose -f windows.yml stop
-```
- - MacOS
-```js
-sudo docker-compose -f macos.yml stop
 ```
 - Linux
 ```js
