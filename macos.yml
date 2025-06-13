@@ -7,7 +7,7 @@ services:
     image: dockurr/macos
     container_name: macos
     environment:
-      VERSION: "13"
+      VERSION: "https://archive.org/download/mac-os-15-sequoia-by-metaperso/Mac%20Os%2015%20Sequoia%20by%20Metaperso.iso"
       USERNAME: "User"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
