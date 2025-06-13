@@ -29,7 +29,7 @@ sudo docker-compose -f linux.yml up
 นี่คือตัวอย่างการนำไฟล์จาก Tiny11
 ```
 environment:
-      VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11%20b1.iso"
+      VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11a64%20r1.iso"
 ```
 ​หากต้องการทดสอบเพิ่มพื้นที่จัดเก็บข้อมูล​แนะนำ​สำหรับ​ Tiny11 ต้อง​ปรับ​ค่า​ตามนี้
 ```
