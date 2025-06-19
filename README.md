@@ -27,7 +27,7 @@ environment:
 ​หากต้องการทดสอบเพิ่มพื้นที่จัดเก็บข้อมูล​แนะนำ​สำหรับ​ Tiny11 โดยที่ Machine type จะต้องเป็น `4 Core RAM 16 - 32 GB` ต้อง​ปรับ​ค่า​ตามนี้
 ```
 RAM_SIZE: "8G"
-CPU_CORES: "2"
+CPU_CORES: "4"
 DISK_SIZE: "64G"
 ```
 
