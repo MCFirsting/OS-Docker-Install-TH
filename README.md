@@ -56,7 +56,7 @@ sudo docker-compose -f linux.yml up -d
 หากต้องการเปลี่ยนเวอร์ชัน Windows หรือ Linux สามารถระบุ URL ของไฟล์ ISO ได้ (เช่นจาก [Internet Archive](https://archive.org/)):  
 ```js
 environment:
-  `VERSION: "[https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso](https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso)"`
+  VERSION: "[https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso](https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso)"
 ```
 ### **2\. การปรับสเปก**
 
