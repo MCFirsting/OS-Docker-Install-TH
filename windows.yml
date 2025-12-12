@@ -8,7 +8,7 @@ services:
     container_name: windows
     environment:
       VERSION: "https://archive.org/download/tiny-11-25h2/Tiny11_25H2_English.iso"
-      RAM_SIZE: "8G"
+      RAM_SIZE: "4G"
       CPU_CORES: "2"
       DISK_SIZE: "64G"
     devices:
@@ -23,6 +23,7 @@ services:
     volumes:
       - windows_main_data:/data
       - windows_extra_data:/extra
+
 
 
 
