@@ -64,7 +64,7 @@ environment:
 ```js
 environment:
   RAM_SIZE: "8G"
-  CPU_CORES: "4"
+  CPU_CORES: "2"
   DISK_SIZE: "64G"
 ```
 ## **❓ คำถามที่พบบ่อย (Q\&A)**
