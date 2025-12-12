@@ -16,16 +16,16 @@
 
 ### **🪟 Windows**
 ```js
-mkdir -p user && cd user
-wget -O windows.yml [https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/windows.yml](https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/windows.yml)
-sudo docker-compose -f windows.yml up -d
+mkdir user && cd user
+wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/windows.yml
+sudo docker-compose -f windows.yml up
 ```
 
 ### **🐧 Linux**
 ```js 
-mkdir -p user && cd user
-wget -O linux.yml [https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/linux.yml](https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/linux.yml)
-sudo docker-compose -f linux.yml up -d
+mkdir user && cd user
+wget -O linux.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/linux.yml
+sudo docker-compose -f linux.yml up
 ```
 
 **Note:** เมื่อรันคำสั่งเสร็จสิ้น ให้ไปที่แท็บ **Ports** แล้วเลือกพอร์ต 8006 เพื่อเปิดหน้าจอ Desktop ผ่านเบราว์เซอร์
