@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://archive.org/download/linux-mint-20.2/Linux%20MInt%2020.2.iso"
+      BOOT: "https://archive.org/download/linux-mint-21.1-cinnamon/linuxmint-21.1-cinnamon-64bit.iso"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
       DISK_SIZE: "64G"
@@ -18,6 +18,7 @@ services:
       - "3389:3389/udp"
     volumes:
       - ./qemu:/storage
+
 
 
 
