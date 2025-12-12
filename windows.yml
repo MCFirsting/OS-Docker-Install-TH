@@ -10,7 +10,7 @@ services:
       VERSION: "https://archive.org/download/tiny11_25H2/tiny11_25H2_Oct25.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "2"
-      DISK_SIZE: "20G"
+      DISK_SIZE: "64G"
     devices:
       - /dev/kvm
       - /dev/net/tun
@@ -23,6 +23,7 @@ services:
     volumes:
       - windows_main_data:/data
       - windows_extra_data:/extra
+
 
 
 
