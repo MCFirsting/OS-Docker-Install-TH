@@ -6,7 +6,7 @@ services:
       BOOT: "https://archive.org/download/ubuntu-24.04.2-desktop-amd64/ubuntu-24.04.2-desktop-amd64.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "2"
-      DISK_SIZE: "20G"
+      DISK_SIZE: "64G"
     devices:
       - /dev/kvm
       - /dev/net/tun
@@ -18,4 +18,5 @@ services:
       - "3389:3389/udp"
     volumes:
       - ./qemu:/storage
+
 
