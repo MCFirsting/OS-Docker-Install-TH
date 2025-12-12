@@ -58,15 +58,6 @@ sudo docker-compose -f linux.yml up
 environment:
    VERSION: "https://archive.org/download/tiny11_25H2/tiny11_25H2_Oct25.iso"
 ```
-### **2\. การปรับสเปก**
-
-สำหรับ OS ที่ต้องการทรัพยากรสูง (เช่น Tiny11) แนะนำให้ใช้ Codespaces สเปก **4 Core, 16GB RAM** ขึ้นไป และปรับค่าในไฟล์ config ดังนี้:  
-```js
-environment:
-  RAM_SIZE: "8G"
-  CPU_CORES: "2"
-  DISK_SIZE: "64G"
-```
 ## **❓ คำถามที่พบบ่อย (Q\&A)**
 
 **ถาม:** สามารถเล่นเกมหรือลงโปรแกรมหนักๆได้ไหม?
