@@ -8,7 +8,7 @@ services:
     container_name: windows
     environment:
       VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso"
-      RAM_SIZE: "4G"
+      RAM_SIZE: "8G"
       CPU_CORES: "2"
       DISK_SIZE: "20G"
     devices:
@@ -23,3 +23,4 @@ services:
     volumes:
       - windows_main_data:/data
       - windows_extra_data:/extra
+
