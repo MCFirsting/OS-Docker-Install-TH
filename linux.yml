@@ -18,8 +18,3 @@ services:
       - "3389:3389/udp"
     volumes:
       - ./qemu:/storage
-
-
-
-
-
