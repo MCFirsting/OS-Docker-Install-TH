@@ -10,7 +10,7 @@ services:
       VERSION: "https://archive.org/download/tiny-11-25h2/Tiny11_25H2_English.iso"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
-      DISK_SIZE: "64G"
+      DISK_SIZE: "32G"
     devices:
       - /dev/kvm
       - /dev/net/tun
