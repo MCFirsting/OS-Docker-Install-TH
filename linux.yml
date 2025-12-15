@@ -9,7 +9,7 @@ services:
       BOOT: "https://archive.org/download/linux-mint-21.1-cinnamon/linuxmint-21.1-cinnamon-64bit.iso"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
-      DISK_SIZE: "64G"
+      DISK_SIZE: "32G"
     devices:
       - /dev/kvm
       - /dev/net/tun
