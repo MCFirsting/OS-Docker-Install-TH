@@ -23,10 +23,3 @@ services:
     volumes:
       - windows_main_data:/data
       - windows_extra_data:/extra
-
-
-
-
-
-
-
