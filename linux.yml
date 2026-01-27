@@ -1,3 +1,6 @@
+volumes:
+  qemu:
+
 services:
   qemu:
     image: qemux/qemu
