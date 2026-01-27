@@ -105,12 +105,6 @@ environment:
   VERSION: "https://example.com/win.iso"
 ```
 สามารถระบุ URL ของไฟล์ ISO ได้ (เช่นจาก [Internet Archive](https://archive.org/))
-หรืออีกทางเลือกหนึ่ง คุณสามารถใช้ไฟล์ที่มีอยู่ในเครื่องแทนการดาวน์โหลดได้ โดยการทำ Bind mount ลงในไฟล์ compose ดังนี้:
-```yaml
-volumes:
-  - ./example.iso:/boot.iso
-```
-ให้เปลี่ยน path ตัวอย่าง ./example.iso เป็นชื่อไฟล์ ISO ที่คุณต้องการใช้งาน (ซึ่งในกรณีนี้ ค่าที่กำหนดใน VERSION จะถูกเพิกเฉยและไม่ถูกนำมาใช้งาน) 
 
 ### วิธีรันสคริปต์หลังการติดตั้ง
 
