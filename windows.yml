@@ -7,7 +7,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/tiny-11-NTDEV/tiny11%2023H2%20x64.iso"
+      VERSION: "https://archive.org/download/tiny-10-NTDEV/tiny10%2023h1%20x64.iso"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
       DISK_SIZE: "32G"
@@ -23,4 +23,5 @@ services:
     volumes:
       - windows_main_data:/data
       - windows_extra_data:/extra
+
 
