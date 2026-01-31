@@ -28,8 +28,7 @@ wget -O linux.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install
 sudo docker-compose -f linux.yml up
 ```
 
-**Note:** เมื่อรันคำสั่งเสร็จสิ้น ให้ไปที่แท็บ **Ports** แล้วเลือกพอร์ต 8006 เพื่อเปิดหน้าจอ Desktop ผ่านเบราว์เซอร์
-
+**Note:** เมื่อรันคำสั่งเสร็จสิ้น ให้ไปที่แท็บ **Ports** แล้วเลือกพอร์ต 8006 เพื่อเปิดหน้าจอ Desktop ผ่านเบราว์เซsudo
 ## **🎮 การใช้งานและการควบคุม**
 
 ### **การเข้าใช้งาน**
@@ -43,9 +42,9 @@ sudo docker-compose -f linux.yml up
 
 | การทำงาน | คำสั่ง Windows (Bash) | คำสั่ง Linux (Bash) |
 | :---- | :---- | :---- |
-| **🟢 เริ่ม (Start)** | sudo docker-compose \-f windows.yml start | sudo docker-compose \-f linux.yml start |
-| **🔴 หยุด (Stop)** | sudo docker-compose \-f windows.yml stop | sudo docker-compose \-f linux.yml stop |
-| **🔄 รีสตาร์ท (Restart)** | sudo docker-compose \-f windows.yml restart | sudo docker-compose \-f linux.yml restart |
+| **🟢 เริ่ม (Start)** | cd user sudo docker-compose \-f windows.yml start | cd user sudo docker-compose \-f linux.yml start |
+| **🔴 หยุด (Stop)** | cd user sudo docker-compose \-f windows.yml stop | cd user sudoart docker-compose \-f linux.yml stop |
+| **🔄 รีสตาร์ท (Restart)** | cd user sudo docker-compose \-f windows.yml restart | cd user sudo docker-compose \-f linux.yml restart |
 
 ## **⚙️ การปรับแต่งขั้นสูง**
 
