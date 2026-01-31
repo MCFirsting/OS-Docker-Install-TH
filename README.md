@@ -43,7 +43,7 @@ sudo docker-compose -f linux.yml up
 | การทำงาน | คำสั่ง Windows (Bash) | คำสั่ง Linux (Bash) |
 | :---- | :---- | :---- |
 | **🟢 เริ่ม (Start)** | cd user sudo docker-compose \-f windows.yml start | cd user sudo docker-compose \-f linux.yml start |
-| **🔴 หยุด (Stop)** | cd user sudo docker-compose \-f windows.yml stop | cd user sudoart docker-compose \-f linux.yml stop |
+| **🔴 หยุด (Stop)** | cd user sudo docker-compose \-f windows.yml stop | cd user sudo docker-compose \-f linux.yml stop |
 | **🔄 รีสตาร์ท (Restart)** | cd user sudo docker-compose \-f windows.yml restart | cd user sudo docker-compose \-f linux.yml restart |
 
 ## **⚙️ การปรับแต่งขั้นสูง**
