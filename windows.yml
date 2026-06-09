@@ -8,9 +8,9 @@ services:
     container_name: windows
     environment:
       VERSION: "https://archive.org/download/tiny-10-NTDEV/tiny10%2023h1%20x64.iso"
-      RAM_SIZE: "4G"
-      CPU_CORES: "2"
-      DISK_SIZE: "32G"
+      RAM_SIZE: "8G"
+      CPU_CORES: "4"
+      DISK_SIZE: "512G"
     devices:
       - /dev/kvm
       - /dev/net/tun
