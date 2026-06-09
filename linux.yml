@@ -7,9 +7,9 @@ services:
     container_name: qemu
     environment:
       BOOT: "https://archive.org/download/linux-mint-21.1-cinnamon/linuxmint-21.1-cinnamon-64bit.iso"
-      RAM_SIZE: "4G"
-      CPU_CORES: "2"
-      DISK_SIZE: "32G"
+      RAM_SIZE: "8G"
+      CPU_CORES: "4"
+      DISK_SIZE: "512G"
     devices:
       - /dev/kvm
       - /dev/net/tun
