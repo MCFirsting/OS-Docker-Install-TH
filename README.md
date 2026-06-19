@@ -28,7 +28,7 @@ wget -O linux.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install
 sudo docker-compose -f linux.yml up
 ```
 
-**Note:** เมื่อรันคำสั่งเสร็จสิ้น ให้ไปที่แท็บ **Ports** แล้วเลือกพอร์ต 8006 เพื่อเปิดหน้าจอ Desktop ผ่านเบราว์เซsudo
+**Note:** เมื่อรันคำสั่งเสร็จสิ้น ให้ไปที่แท็บ **Ports** แล้วเลือกพอร์ต 8006 เพื่อเปิดหน้าจอ Desktop ผ่านเบราว์เซอร์
 ## **🎮 การใช้งานและการควบคุม**
 
 ### **การเข้าใช้งาน**
